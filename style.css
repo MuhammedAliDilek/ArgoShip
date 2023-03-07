@@ -1,0 +1,36 @@
+.blue-text {
+  color: blue;
+}
+p {
+  color: white;
+  font-family: Courier New;
+  font-weight: bold;
+}
+section {
+  color: purple;
+}
+body {
+  background-color: slategray;
+  font-style: italic;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#welcome {
+  height: 400px;
+  background-image: url("shipsatsea.jpg");
+  background-size: cover;
+}
+.flex-container {
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+}
+.headers {
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+}
+ul {
+  background: #2de4c5;
+  display: flex;
+  justify-content: space-around;
+  padding: 12px;

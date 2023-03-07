@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Welcome to Mo's amazon Store</title>
+    <style>
+      form {
+        display: flex;
+        flex-direction: column;
+      }
+
+      #login {
+        width: 25%;
+      }
+
+      #contact {
+        width: 40%;
+      }
+    </style>
+  </head>
+
+  <body>
+    <form id="login">
+      Log in
+      <label for="firstname"> First name: </label>
+      <input type="text" id="firstname" value="Piri Reis" required />
+      <label for="lastname"> Last name: </label>
+      <input
+        type="text"
+        id="lastname"
+        placeholder="type your Surname"
+        required
+      />
+      <div>
+        <input type="checkbox" name="click" id="middlename" required /> I am not
+        a robot
+      </div>
+    </form>
+    <button id="button">Submit</button>
+    <br />
+
+    <form id="contact">
+      Contact form
+      <label for="name"> Name: </label>
+      <input type="text" id="name" value="Piri Reis" />
+      <label for="e-mail"> e-mail: </label>
+      <input type="text" id="lastname" placeholder="type your email" />
+      <label for="message"> message: </label>
+      <input type="text" id="message" placeholder="write your message" />
+      <div>
+        <input type="checkbox" name="click" id="middlename" /> I am not a robot
+        <br />
+      </div>
+      <input type="submit" value="Submit" /> <br />
+    </form>
+
+    <script src="./index.js"></script>
+  </body>
+</html>

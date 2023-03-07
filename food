@@ -1,0 +1,35 @@
+/*  Const creation */
+const blueBarrel = {
+  "weight" : 250,
+  "content" : "water"
+};
+
+const whiteBarrel = {
+  "weight" : 100,
+  "content" : "flour"
+};
+
+const brownBarrel = {
+  "weight" : 300,
+  "content" : "wiskey"
+};
+
+const redBarrel = {
+  "weight" : 120,
+  "content" : "grape juice"
+};
+
+console.log("Lets load this boat !" );
+
+const barrels = [blueBarrel, whiteBarrel, brownBarrel, redBarrel];
+
+for(let barrel of barrels){
+
+  if(barrel.weight > 200) {
+    console.log("The barrel of " + barrel.content + " weighs " + barrel.weight + "kg! Store it in the middle part of the ship!");
+  }else{
+    console.log("The barrel of " + barrel.content + " weighs " + barrel.weight + "kg ! Store it at the back part of the ship!");
+  }
+}
+
+console.log("The boat is load!" );
